@@ -48,4 +48,81 @@
     
     
     </section>
+  
+    (CSS)
+    
+:root{
+    --primary-color: #aaaaac;
+    --font-title: 'Montserrat';
+    --font-default: 'inter';
+}
+
+h1 {
+    color: gold;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.25);
+    font-size: 4rem;
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
+header {
+    height: 100vh;
+    position: relative;
+    padding-left: 6.8rem;
+    padding-top: 16.8rem;
+    overflow: hidden;
+}
+html{
+    scroll-behavior: smooth;
+}
+header::before{
+    content: '';
+    background-image: url('https://conteudo.imguol.com.br/c/entretenimento/1a/2021/04/14/ford-mustang-mach-1-1618431285090_v2_1170x540.jpg');
+    background-size: cover;
+    height: 41%;
+    width: 70%;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+span {
+    color: #000000;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.25);
+    font-size: 2rem;
+}
+.botao {
+    background-color: #f1f1f5;
+    color: rgb(0, 0, 0);
+    font-family: 'inter';
+    padding: .25rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: opacity 1s;
+
+}
+
+
+
+.botao:hover{
+ opacity: .5;
+ 
+}
+body {
+    background-color: #857D75;
+    }
+
+    #secao-menu {
+        display: flex;
+        
+    }
+
+    #informacao-carros {
+        height: 20%;
+        width: 20%;
+
+    }
+    
         

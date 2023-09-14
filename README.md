@@ -1,4 +1,18 @@
 # Melhores-Carros-2023
+<<<<<<< HEAD
+
+## Tarefas
+
+- [ ] Header
+- [ ] Apresentação
+- [ ] Projetos
+- [ ] Orçamento
+- [ ] Menu
+- [ ] Responsividade
+
+
+
+=======
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -126,3 +140,4 @@ body {
     }
     
         
+>>>>>>> 0d6bb807abd3443a6c4504363811dd20193e6fb6

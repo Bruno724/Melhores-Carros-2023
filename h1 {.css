@@ -15,12 +15,12 @@
 
 
 h1 {
-  color: gold;
+  color: rgb(255, 136, 0);
   text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.25);
   font-size: 4rem;
   font-family: 'Montserrat';
-  font-weight: 700;
-  left: 700px;
+  font-weight: 70;
+  left: 1000px;
 }
 
 header {
@@ -79,10 +79,58 @@ opacity: .5;
 
 }
 body {
-  background-color: #ffffff;
+  background-color: #ffffff1c;
       font-family: "Poppins", sans-serif;
      
     }
+
+    #menu_icon{
+      color: #a19f9f80;
+      text-shadow: #ffffff 2px 2px 2px;
+      right: 1rem;
+      top: 1rem;
+      z-index: 10;
+      cursor: pointer;
+      position: fixed;
+
+      
+
+    }
+    #menu  {
+      position: fixed;
+      background-color: #858483;
+      height: 100vh;
+      padding: 3rem;
+      z-index: 9;
+      right: 0;
+      transform: translateX(100%);
+      transition: transform 1s;
+
+    }
+
+    #menu a{
+color: #000000;
+text-decoration: none;
+font-size: 1.5rem;
+
+    }
+    #menu.open{
+      transform: translateX(0);
+    }
+.icon{
+  width: 24px;
+  height: 24px;
+}
+#menu li{
+  padding: 1rem;
+  border-radius: .5rem;
+  transition: backgroud-color .5s;
+}
+#menu li:hover{
+  background-color: #9c9c9c;
+
+}
+
     .row {
       display: flex;
       justify-content: center;
